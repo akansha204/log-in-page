@@ -1,0 +1,149 @@
+body{
+    background-color: #232521;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    /* background-color: #232521;
+    color: white; */
+}
+a{
+    text-decoration: none;
+    color: rgb(69, 69, 212);
+    font-weight: 500;
+}
+button{
+    border: none;
+    color: white;
+}
+.sign-in{
+    width: 90%;
+    background-color: black;
+    border-radius:25px ;
+    cursor: pointer;
+
+    /* margin-top: auto; */
+}
+.sign-in div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.log-in{
+    background-color: rgb(69, 69, 212);
+    width: 5rem;
+    border-radius: 20px;
+    padding: 0.6rem 0.6rem;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+.credentials{
+    all: unset;
+    border: 1px solid white; 
+    border-radius: 20px; 
+    width: 90%;
+    margin: 1rem 0;
+    padding: 0.6rem 1rem;
+}
+.credentials:hover{
+    border: 1px solid rgb(69, 69, 212);
+}
+.check-box{
+    padding: 0 1rem;
+
+}
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 8.75rem;
+}
+.card {
+    width: 30vw;
+    height: 82vh;
+    overflow: hidden;
+
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+p{
+    font-size: 16px;
+}
+
+label{
+    display: block;
+}
+
+.main{
+    height: 100vh;
+    width: 67vw;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    /* background-color: #232521; */
+
+}
+
+@media (max-width:768px){
+    .main{
+        height: 100vh;
+       
+        /* width: 30vw; */
+    }
+      .card{
+        display: none;
+      }
+    .form{
+        /* display: flex; */
+        flex-grow: 1;
+    }
+    .wel-content{
+       
+        margin: 0 2rem 2rem 0;
+    }
+    .form p{
+        font-size: 14px;
+
+    }
+    .sign-in{
+        width: 100%;
+    }
+}  
+
+.form{
+    width: 30vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+    /* margin-left: 6rem; */
+}
+.check{
+    display: flex;
+    
+}
+.wel-content{
+    width: 70%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    /* align-items: center; */
+}
+.form-content{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    /* flex-direction: column; */
+}
